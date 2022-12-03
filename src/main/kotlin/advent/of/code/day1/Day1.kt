@@ -1,3 +1,5 @@
+package advent.of.code.day1
+
 fun day1Part1(input: String): Int {
     val splitInput = input.split("\n\n")
     val output = splitInput.map { it.split("\n") }

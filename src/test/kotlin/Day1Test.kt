@@ -1,3 +1,5 @@
+import advent.of.code.day1.day1Part1
+import advent.of.code.day1.day1Part2
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
