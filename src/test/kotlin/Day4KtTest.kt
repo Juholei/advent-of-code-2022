@@ -1,4 +1,6 @@
 import advent.of.code.day4.day4Part1
+import advent.of.code.day4.day4Part2
+
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -15,5 +17,10 @@ class Day4KtTest {
     @Test
     fun day4Part1() {
         assertEquals(2, day4Part1(inputString))
+    }
+
+    @Test
+    fun day4Part2() {
+        assertEquals(4, day4Part2(inputString))
     }
 }
